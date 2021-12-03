@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home_page"
+            android:icon="@drawable/ic_home"
+            android:title="Bosh oyna" />
+        <item
+            android:id="@+id/all_valutes_page"
+            android:icon="@drawable/ic_all_valutes"
+            android:title="Barcha valyutalar" />
+
+
+        <item
+            android:id="@+id/calculator_page"
+            android:icon="@drawable/ic_calculator"
+            android:title="Kalkulyator" />
+
+
+    </group>
+</menu>

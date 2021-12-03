@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/homeFragment">
+
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="uz.ismoilroziboyev.valute.fragments.HomeFragment"
+        android:label="Pro valyuta kurslari"
+        tools:layout="@layout/fragment_home" />
+
+</navigation>
